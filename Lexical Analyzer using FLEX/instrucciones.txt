@@ -1,0 +1,53 @@
+|Alberto Senior 20106426|
+|_______________________|
+
+IMPORTANTE: Para seguir estos pasos debe haber completado los pasos del archivo "build.txt".
+
+I. Para ejecutar el programa solo tiene que escribir el nombre del ejecutable que usted asigno, por ejemplo "analizador.exe", en el CMD (command prompt/consola).
+II. Este ejecutable puede recibir archivos con extensión *.sisla*.
+III. El analizador se interpreta de la siguiente manera:
+______________________
+ [a-z]	| VECTORID
+ "hola"	| STRING	
+ .	| UNEXPTECTED	
+ [0-9]	| NUMBER	
+   >	| OPERATOR1	
+   S	| OPERATOR2	
+   A	| OPERATOR2	
+   T	| OPERATOR3	
+   c	| OPERATOR3	
+______________________
+
+Los resultados son impresos/ilustrado en la consola de la siguiente manera:
+Elemento / Propiedad
+
+EJEMPLO #1.
+> "mi nombre es alberto"
+
+RESPUETA EJEMPLO #1.
+"mi nombre es alberto" | STRING
+
+EJEMPLO #2.
+> Buenas "tardes" profesro
+
+RESPUETA EJEMPLO #1.
+Buenas "tardes" profesor
+B | UNEXPECTED
+u | VECTORID
+e | VECTORID
+n | VECTORID
+a | VECTORID
+s | VECTORID
+"tardes" | STRING
+p | VECTORID
+r | VECTORID
+o | VECTORID
+f | VECTORID
+e | VECTORID
+s | VECTORID
+o | VECTORID
+r | VECTORID
+
+IV. Para probar el ejecutable con uno de los archivos, debe escribir el nombre del ejecutable en la consola y al lado del nombre con un espacio, el nombre del archivo.
+EJEMPLO IV.
+"analizador.exe /home/scripts/test1.sisla", sin las comillas.

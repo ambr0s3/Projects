@@ -1,0 +1,14 @@
+|Alberto Senior 20106426|
+|_______________________|
+
+Pasos:
+I. Descargar/Instalar/Configurar Flex y GCC en su maquina.
+II. Debe configurar su environment para que trabaje que tenga Flex y GCC disponible en cualquier parte del sistema.
+Ejemplo:
+1. Abra el cmd (Command Prompt) y escriba set PATH=%PATH%;C:\win_flex_bison <-- Si esta en otra ruta, por favor edite esto.
+2. Abra el cmd (Command Prompt) y escriba set PATH=%PATH%;C:\Program Files\CodeBlocks\MinGW\bin <-- Si esta en otra ruta, por favor edite esto.
+
+III. Descomprima el archivo que ha descargado (analizador_lexico.zip), luego abra el CMD y navegue hacia la carpeta.
+IV. Escriba "flex lexer.lex" sin las comillas. Este proceso va a generar un archivo llamado "lex.yy.c".
+V. Escriba "gcc -o analizador lex.yy.c" sin la comillas. El nombre "analizador" va a ser el nombre de su ejecutable.
+VI. Ya completa estos pasos, puede ejecutar el programa. Para mayor información, abra el archivo "instrucciones.txt" en la misma carpeta.

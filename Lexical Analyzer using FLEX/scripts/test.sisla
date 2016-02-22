@@ -1,0 +1,18 @@
+> "Asignacion del vector x"
+x 15 10 5 78 30 69 78 210 250 14 68 30 30.5 56.1 45.2
+> "Cantidad de elementos en x:"
+C n x
+> n
+> "Calculo de la suma de los elementos en x..."
+S y x
+> y
+> "Asignacion del vector z"
+z 150 100 50 780 300 690 780 2100 2500 140 680 300 300.5 560.1 450.2
+> "Cantidad de elementos en z..."
+C c z
+> c
+> "Contenido del vector z"
+> z
+> "Suma de los vectores x y z. Se guarda en w."
+A w x z
+> "Vector w (suma de x y)"
